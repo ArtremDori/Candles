@@ -1,0 +1,18 @@
+.grid-wrapper{
+      background-size:100%;
+      grid-template-areas:
+      "hdr hdr hdr"
+      "main main main"
+      "ft ft ft"
+}
+.header{
+      grid-area: hdr;
+}
+.main-contacts{
+      grid-area:main;
+}
+.footer{
+      grid-area:ft;
+      display: flex;
+      background-color: conical-gradient(red,blue);
+}
